@@ -1,57 +1,64 @@
 # politica-privacidade
-É importante esclarecer que dados pessoais são todas as informações que possam ser utilizadas para identificar uma pessoa. Entre esses dados, alguns podem ser considerados sensíveis, como: convicção religiosa, estado de saúde, vida sexual, origem racial ou étnica, opinião política, dado genético ou biométrico, filiação a sindicato ou organização religiosa, filosófica ou política.
+Última atualização: 17 de julho de 2025
 
-SEÇÃO I - INFORMAÇÕES GERAIS
-Esta Política de Privacidade tem como objetivo informar de forma clara e transparente como ocorre o tratamento dos dados pessoais dos usuários que utilizam nosso aplicativo de planos de estudos.
+1. Introdução
+Sua privacidade é muito importante para nós. Esta Política de Privacidade descreve como os dados são coletados, armazenados, utilizados e protegidos durante o uso do aplicativo.
 
-Aqui você entenderá:
+Ao utilizar o app, você concorda com os termos desta política.
 
-Quais dados são coletados;
+2. Coleta de Dados
+O aplicativo coleta apenas o nome do usuário, fornecido voluntariamente no momento do cadastro ou login. Nenhuma outra informação pessoal é coletada ou armazenada.
 
-Para que finalidades esses dados são utilizados;
+3. Armazenamento dos Dados
+3.1 Armazenamento Local (SQLite)
+Os dados referentes ao uso do app são armazenados localmente no dispositivo, utilizando SQLite. Esses dados são acessíveis apenas dentro do app e não são enviados para a nuvem.
 
-Como o usuário pode controlar, editar ou deletar suas informações.
+3.2 Armazenamento em Nuvem (Firebase)
+O nome do usuário é salvo no Firebase, sem criptografia, mas com medidas de segurança que incluem:
 
-Esta política foi criada com base na Lei Geral de Proteção de Dados (Lei 13.709/18), no Marco Civil da Internet (Lei 12.965/14) e no Regulamento Europeu (GDPR - Regulamento UE n.º 2016/679). Eventuais atualizações legais poderão gerar modificações neste documento.
+Regras de segurança restritivas, permitindo acesso apenas ao administrador
 
-SEÇÃO II - DADOS COLETADOS
-O app coleta dados com o objetivo de melhorar a usabilidade, fornecer recursos personalizados e possibilitar o funcionamento adequado do sistema. Os dados podem ser coletados das seguintes formas:
+Firebase App Check ativado, garantindo que somente dispositivos autorizados e o app oficial tenham acesso
 
-II.I - Dados fornecidos pelo usuário
-Ao criar uma conta no app, o usuário poderá fornecer informações como:
+Nenhum outro usuário pode visualizar ou modificar esses dados
 
-Nome de usuário;
+4. Gerenciamento de Conta
+4.1 Exclusão da Conta
+O usuário pode excluir sua conta diretamente no aplicativo. Ao realizar essa ação:
 
-Endereço de e-mail;
+O nome armazenado no Firebase é permanentemente excluído
 
-⚠️ Esses dados são armazenados no Firebase, mas não são criptografados individualmente. Ainda assim, a plataforma oferece infraestrutura segura, auditada pela Google, e todos os dados são transmitidos via conexões protegidas (HTTPS), o que garante a integridade e confidencialidade contra acessos não autorizados.
+Os dados salvos localmente no dispositivo também são removidos
 
-II.II - Sincronização com o Google Drive
-O app não sincroniza com o Google Drive, o que significa que:
+O acesso ao app é encerrado
 
-❗ Nenhum dado é automaticamente salvo, transferido ou recuperado da sua conta Google Drive.
+4.2 Desconectar-se da Conta
+O usuário também pode se desconectar (logout) pelo próprio app. Isso encerra a sessão no dispositivo, mas não remove os dados armazenados (nome no Firebase e dados locais).
 
-Os dados permanecem armazenados apenas localmente no seu dispositivo, ou então nos servidores do Firebase, conforme descrito acima.
+A exclusão completa só ocorre quando o usuário escolhe explicitamente a opção de excluir a conta.
 
-SEÇÃO III - ARMAZENAMENTO LOCAL E BACKUP
-O aplicativo pode utilizar armazenamento local (como SQLite) para registrar informações como:
+5. Compartilhamento de Dados
+Não compartilhamos seus dados com terceiros. Eles são utilizados exclusivamente para o funcionamento do app e protegidos por medidas técnicas adequadas.
 
-Planos de estudo personalizados;
+6. Seus Direitos
+Você tem o direito de:
 
-Matérias estudadas;
+Excluir sua conta e dados a qualquer momento pelo app
 
-Duração das sessões de estudo;
+Desconectar-se da conta quando quiser
 
-Playlists criadas.
+Solicitar informações sobre seus dados, se necessário
 
-🔒 Esses dados são armazenados apenas no dispositivo do usuário e não são criptografados, visto que não se tratam de informações sensíveis.
+7. Segurança
+Aplicamos medidas de segurança como:
 
-SEÇÃO IV - ACEITE DA POLÍTICA
-Ao utilizar este aplicativo, o usuário concorda automaticamente com os termos desta Política de Privacidade.
+Armazenamento local isolado com SQLite
 
-Reservamo-nos o direito de modificar este documento a qualquer momento, sem aviso prévio. Recomendamos que os usuários revisem esta política periodicamente para se manterem informados sobre eventuais alterações.
+Regras de acesso rigorosas no Firebase
 
-Em caso de dúvidas, você pode entrar em contato pelo e-mail disponibilizado na loja de aplicativos.
+Verificação de integridade com Firebase App Check
 
-SEÇÃO V - LINKS EXTERNOS
-Este aplicativo pode conter links para outros sites ou aplicativos. Esta política de privacidade não se aplica a sites de terceiros. Ao ser redirecionado, recomendamos que o usuário leia a política de privacidade do site acessado.
+Mesmo assim, recomendamos que você mantenha suas credenciais protegidas.
+
+8. Alterações nesta Política
+Podemos atualizar esta política periodicamente. Alterações importantes serão informadas dentro do aplicativo.
