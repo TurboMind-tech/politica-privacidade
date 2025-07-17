@@ -2,17 +2,17 @@ Politica de privacidade
 
 Última atualização: 17 de julho de 2025
 
-1. Introdução
+Introdução
    
 Sua privacidade é muito importante para nós. Esta Política de Privacidade descreve como os dados são coletados, armazenados, utilizados e protegidos durante o uso do aplicativo.
 
 Ao utilizar o app, você concorda com os termos desta política.
 
-2. Coleta de Dados
+Coleta de Dados
    
 O aplicativo coleta apenas o nome do usuário, fornecido voluntariamente no momento do cadastro ou login. Nenhuma outra informação pessoal é coletada ou armazenada.
 
-3. Armazenamento dos Dados
+Armazenamento dos Dados
    
 > 3.1 Armazenamento Local (SQLite)
 
@@ -28,7 +28,7 @@ O nome do usuário é salvo no Firebase, sem criptografia, mas com medidas de se
 
 > Nenhum outro usuário pode visualizar ou modificar esses dados
 
-4. Gerenciamento de Conta
+Gerenciamento de Conta
 
 > 4.1 Exclusão da Conta
 
@@ -46,11 +46,11 @@ O usuário também pode se desconectar (logout) pelo próprio app. Isso encerra 
 
 > A exclusão completa só ocorre quando o usuário escolhe explicitamente a opção de excluir a conta.
 
-5. Compartilhamento de Dados
+Compartilhamento de Dados
    
 Não compartilhamos seus dados com terceiros. Eles são utilizados exclusivamente para o funcionamento do app e protegidos por medidas técnicas adequadas.
 
-6. Seus Direitos
+Seus Direitos
    
 Você tem o direito de:
 
@@ -60,7 +60,7 @@ Você tem o direito de:
 
 > Solicitar informações sobre seus dados, se necessário
 
-7. Segurança
+Segurança
    
 Aplicamos medidas de segurança como:
 
@@ -72,6 +72,6 @@ Aplicamos medidas de segurança como:
 
 > Mesmo assim, recomendamos que você mantenha suas credenciais protegidas.
 
-8. Alterações nesta Política
+Alterações nesta Política
    
 Podemos atualizar esta política periodicamente. Alterações importantes serão informadas dentro do aplicativo.
