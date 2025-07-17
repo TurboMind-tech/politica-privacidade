@@ -1,4 +1,5 @@
-# Politica privacidade
+Politica de privacidade
+
 Última atualização: 17 de julho de 2025
 
 1. Introdução
@@ -13,11 +14,11 @@ O aplicativo coleta apenas o nome do usuário, fornecido voluntariamente no mome
 
 3. Armazenamento dos Dados
    
-3.1 Armazenamento Local (SQLite)
+> 3.1 Armazenamento Local (SQLite)
 
 Os dados referentes ao uso do app são armazenados localmente no dispositivo, utilizando SQLite. Esses dados são acessíveis apenas dentro do app e não são enviados para a nuvem.
 
-3.2 Armazenamento em Nuvem (Firebase)
+> 3.2 Armazenamento em Nuvem (Firebase)
 
 O nome do usuário é salvo no Firebase, sem criptografia, mas com medidas de segurança que incluem:
 
@@ -28,8 +29,8 @@ O nome do usuário é salvo no Firebase, sem criptografia, mas com medidas de se
 > Nenhum outro usuário pode visualizar ou modificar esses dados
 
 4. Gerenciamento de Conta
-   
-4.1 Exclusão da Conta
+
+> 4.1 Exclusão da Conta
 
 O usuário pode excluir sua conta diretamente no aplicativo. Ao realizar essa ação:
 
@@ -39,7 +40,7 @@ O usuário pode excluir sua conta diretamente no aplicativo. Ao realizar essa a�
 
 > O acesso ao app é encerrado
 
-4.2 Desconectar-se da Conta
+> 4.2 Desconectar-se da Conta
 
 O usuário também pode se desconectar (logout) pelo próprio app. Isso encerra a sessão no dispositivo, mas não remove os dados armazenados (nome no Firebase e dados locais).
 
