@@ -1,151 +1,182 @@
-Politica de privacidade e Termo de uso
+Política de Privacidade
 
-Última atualização: 17 de julho de 2025
+Última atualização: 23 de julho de 2025
 
-Introdução:
-   
-Sua privacidade é muito importante para nós. Esta Política de Privacidade descreve como os dados são coletados, armazenados, utilizados e protegidos durante o uso do aplicativo.
+Introdução
 
-Ao utilizar o app, você concorda com os termos desta política.
+> Sua privacidade é prioridade para nós. Esta Política de Privacidade explica como seus dados são coletados, armazenados, utilizados e protegidos durante o uso do aplicativo.
 
-Coleta de Dados:
-   
-O aplicativo coleta apenas o nome do usuário, fornecido voluntariamente no momento do cadastro ou login. Nenhuma outra informação pessoal é coletada ou armazenada.
+> Ao utilizar o app, você concorda com esta política.
 
-Armazenamento dos Dados:
-   
-> Armazenamento Local (SQLite)
+Coleta de Dados
 
-Os dados referentes ao uso do app são armazenados localmente no dispositivo, utilizando SQLite. Esses dados são acessíveis apenas dentro do app e não são enviados para a nuvem.
+O aplicativo coleta apenas os dados estritamente necessários para seu funcionamento. São eles:
 
-> Armazenamento em Nuvem (Firebase)
+> ID do estudo (armazenado no Firebase apenas para organização interna)
 
-O nome do usuário é salvo no Firebase, sem criptografia, mas com medidas de segurança que incluem:
+> Tempo dedicado a cada matéria, coletado localmente no seu dispositivo
 
-> Regras de segurança restritivas, permitindo acesso apenas ao administrador
+> Nenhum dado pessoal (como nome, e-mail ou localização) é solicitado, coletado ou armazenado.
 
-> Firebase App Check ativado, garantindo que somente dispositivos autorizados e o app oficial tenham acesso
+> Armazenamento dos Dados
 
-> Nenhum outro usuário pode visualizar ou modificar esses dados
+Armazenamento Local (SQLite)
 
-Gerenciamento de Conta:
+Todos os dados de uso, como o tempo dedicado aos estudos e as recomendações da IA, são armazenados localmente no dispositivo, via banco de dados SQLite. Esses dados:
 
-> Exclusão da Conta
+> Não são enviados para a nuvem
 
-O usuário pode excluir sua conta diretamente no aplicativo. Ao realizar essa ação:
+> Estão disponíveis apenas no próprio app
 
-> O nome armazenado no Firebase é permanentemente excluído
+> Podem ser apagados a qualquer momento pelo usuário
 
-> Os dados salvos localmente no dispositivo também são removidos
+Armazenamento em Nuvem (Firebase)
 
-> O acesso ao app é encerrado
+O app salva apenas o ID dos estudos no Firebase, exclusivamente para fins de organização técnica. Este ID:
 
-Desconectar-se da Conta:
+> Não permite identificação pessoal
 
-O usuário também pode se desconectar (logout) pelo próprio app. Isso encerra a sessão no dispositivo, mas não remove os dados armazenados (nome no Firebase e dados locais).
+> Está protegido por regras de segurança do Firebase
 
-> A exclusão completa só ocorre quando o usuário escolhe explicitamente a opção de excluir a conta.
+> Não é compartilhado com terceiros
 
-Compartilhamento de Dados:
-   
-Não compartilhamos seus dados com terceiros. Eles são utilizados exclusivamente para o funcionamento do app e protegidos por medidas técnicas adequadas.
+Inteligência Artificial Local
 
-Seus Direitos:
-   
-Você tem o direito de:
+O app utiliza uma IA embarcada que funciona diretamente no dispositivo. Essa IA:
 
-> Excluir sua conta e dados a qualquer momento pelo app
+> Utiliza os dados de duração das matérias para sugerir revisões
 
-> Desconectar-se da conta quando quiser
+> Não acessa a internet ou servidores
 
-> Solicitar informações sobre seus dados, se necessário
+> Não armazena nem processa seus dados na nuvem
 
-Segurança:
-   
-Aplicamos medidas de segurança como:
+> Toda a inteligência acontece localmente, de forma segura e privada.
 
-> Armazenamento local isolado com SQLite
+Publicidade
 
-> Regras de acesso rigorosas no Firebase
+O aplicativo exibe apenas anúncios genéricos. Não há coleta ou uso de dados para personalização de anúncios. As medidas adotadas incluem:
 
-> Verificação de integridade com Firebase App Check
+> Firebase Analytics desativado
 
-> Mesmo assim, recomendamos que você mantenha suas credenciais protegidas.
+> Nenhum rastreamento de comportamento
 
-Alterações nesta Política:
-   
-Podemos atualizar esta política periodicamente. Alterações importantes serão informadas dentro do aplicativo.
+> Conformidade total com a LGPD
 
-///////
+Seus Direitos (LGPD)
 
-Termos de Uso
+De acordo com a Lei Geral de Proteção de Dados (LGPD), você tem o direito de:
 
-Última atualização: 17 de julho de 2025
+> Acessar e excluir seus dados a qualquer momento
 
-Seja bem-vindo! Estes Termos de Uso regulam o acesso e o uso do aplicativo. Ao utilizar este app, você declara que leu, entendeu e concorda com os termos descritos abaixo.
+> Solicitar esclarecimentos sobre o uso de informações
 
-Aceitação dos Termos:
-   
-Ao criar uma conta ou utilizar qualquer funcionalidade do aplicativo, você concorda com estes Termos de Uso e com a nossa Política de Privacidade.
+> Utilizar o app de forma totalmente anônima
 
-Caso não concorde, não utilize o aplicativo.
+Segurança
 
-Uso do Aplicativo:
-   
-O aplicativo tem como objetivo oferecer funcionalidades específicas ao usuário final. Ao utilizar o app, o usuário se compromete a:
+Medidas aplicadas:
 
-> Fornecer informações verdadeiras ao criar uma conta (como o nome)
+> Armazenamento local isolado e protegido
 
-> Utilizar o app apenas para fins legais e pessoais
+> Regras de acesso restritas no Firebase para o ID do estudo
 
-> Não tentar burlar sistemas de segurança, acessar dados de outros usuários ou explorar falhas
+> Firebase App Check ativado (garante que só o app oficial acesse o Firebase)
 
-Cadastro e Conta do Usuário:
-   
-> O cadastro exige apenas o nome, que será salvo no Firebase.
+> Nenhum dado pessoal é armazenado ou trafegado
 
-> O usuário pode se desconectar da conta ou excluí-la diretamente pelo aplicativo.
+Alterações nesta Política
 
-> Ao excluir a conta, todos os dados armazenados (locais e na nuvem) serão removidos de forma permanente.
+> Esta política poderá ser modificada a qualquer momento para refletir melhorias ou ajustes técnicos. Toda mudança relevante será informada dentro do aplicativo.
 
-Armazenamento de Dados:
-   
-> Dados são armazenados localmente com SQLite e na nuvem (Firebase) apenas o nome do usuário.
+📜 Termos de Uso
 
-> O acesso aos dados na nuvem é restrito ao administrador, com proteção por regras de segurança e App Check.
+Última atualização: 23 de julho de 2025
 
-> O usuário compreende que o nome não é criptografado, mas está protegido contra acessos indevidos.
+Bem-vindo(a)!
 
-Propriedade Intelectual:
-   
-Todos os direitos relativos ao aplicativo, incluindo design, código, marca, funcionalidades e conteúdo, pertencem exclusivamente ao desenvolvedor do app. É proibido copiar, distribuir, modificar ou utilizar qualquer parte do app sem autorização.
+> Estes Termos de Uso definem as regras para o uso do aplicativo. Ao utilizar o app, você declara estar ciente e de acordo com este documento e com a Política de Privacidade.
 
-Limitações de Responsabilidade:
-   
-O aplicativo é fornecido "como está", e embora sejam adotadas medidas para garantir segurança e estabilidade, o desenvolvedor não se responsabiliza por:
+Aceitação dos Termos
 
-> Quaisquer danos diretos ou indiretos causados por falhas no app.
+Ao instalar ou usar o app, você concorda com:
 
-> Perda de dados causada por desinstalação.
+> Estes Termos de Uso
 
-> Problemas decorrentes de uso não autorizado ou fora dos termos aqui estabelecidos.
+> A Política de Privacidade vigente
 
-> Encerramento e Suspensão.
-   
-O acesso ao aplicativo pode ser suspenso ou encerrado a qualquer momento em caso de:
+> O uso da IA embarcada para recomendações de revisão
 
-> Violação dos Termos de Uso
+Uso do Aplicativo
 
-> Uso indevido ou ilegal
+O app tem como objetivo ajudar na organização dos estudos. O usuário se compromete a:
 
-> Solicitação do próprio usuário (exclusão de conta)
+> Utilizar o app para fins pessoais e legais
 
-Atualizações:
- 
-Estes Termos de Uso podem ser atualizados a qualquer momento para refletir alterações legais, técnicas ou de funcionamento do app. As alterações serão comunicadas dentro do próprio aplicativo, e o uso contínuo implicará na aceitação dos novos termos.
+> Não tentar acessar ou modificar o funcionamento interno do app
 
-Contato: 
+> Não explorar falhas de segurança ou dados de terceiros
 
-Em caso de dúvidas, sugestões ou solicitações relacionadas à sua conta ou a estes termos, entre em contato pelo e-mail:
+Cadastro e Dados
 
-suporte@seudominio.com
+> É necessário criar conta com nome ou e-mail
+
+> O único dado salvo remotamente é o ID do estudo
+
+> Todos os demais dados ficam armazenados localmente e sob controle do usuário
+
+IA Local
+
+A funcionalidade de IA do app serve para:
+
+> Analisar localmente a duração dos estudos
+
+> Sugerir revisões com base nesses dados
+
+> Funcionar sem conexão com servidores externos
+
+Publicidade
+
+> O app não exibe anúncios personalizados
+
+> Apenas anúncios genéricos são mostrados
+
+> Nenhum dado de uso é rastreado ou compartilhado
+
+Propriedade Intelectual
+
+O aplicativo e todo seu conteúdo (código, design, marca, funcionalidades) pertencem exclusivamente ao desenvolvedor. É proibido:
+
+> Copiar
+
+> Distribuir
+
+> Modificar
+
+> Usar qualquer parte do app sem autorização prévia
+
+Limitações de Responsabilidade
+
+O app é fornecido “como está”. O desenvolvedor não se responsabiliza por:
+
+> Danos causados por uso inadequado
+
+> Perda de dados após desinstalação
+
+> Falhas técnicas alheias ao controle do app
+
+> Encerramento e Suspensão
+
+> O uso do app pode ser encerrado a qualquer momento em caso de:
+
+> Uso ilegal ou fora dos termos
+
+> Tentativas de manipulação indevida
+
+Atualizações
+
+> Este documento pode ser alterado sempre que necessário. Toda atualização será informada no próprio app.
+
+Contato
+
+Em caso de dúvidas, sugestões ou solicitações, entre em contato:
+📧 suporte@seudominio.com
