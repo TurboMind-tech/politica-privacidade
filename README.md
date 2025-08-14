@@ -12,23 +12,27 @@ Coleta de Dados
 
 O aplicativo coleta apenas os dados estritamente necessários para seu funcionamento. São eles:
 
-> ID do estudo (armazenado no Firebase apenas para organização interna)
+> ID do estudo (armazenado no Firebase apenas para organização interna).
 
-> Tempo dedicado a cada matéria, coletado localmente no seu dispositivo
+> Duração, matérias, conteúdo, PLaylist são coletado e armazenados localmente no seu dispositivo.
 
-> Nenhum dado pessoal (como nome, e-mail ou localização) é solicitado, coletado ou armazenado.
+Privacidade e Dados
 
-> Armazenamento dos Dados
+> Para acessar o aplicativo, solicitamos nome, e-mail e senha, usados exclusivamente para autenticação.
+
+> Esses dados não são armazenados localmente no dispositivo nem em nossos servidores, ficando protegidos no serviço de autenticação utilizado.
+
+> Não coletamos outras informações pessoais (como localização, contatos ou comportamento de uso).
 
 Armazenamento Local (SQLite)
 
-Todos os dados de uso, como o tempo dedicado aos estudos e as recomendações da IA, são armazenados localmente no dispositivo, via banco de dados SQLite. Esses dados:
+Todos os dados de uso, como a duração, matéria, conteúdo, PlayList e as recomendações, são armazenados localmente no dispositivo, via banco de dados SQLite. Esses dados:
 
 > Não são enviados para a nuvem
 
 > Estão disponíveis apenas no próprio app
 
-> Podem ser apagados a qualquer momento pelo usuário
+> Podem ser apagados ou editados a qualquer momento pelo usuário
 
 Armazenamento em Nuvem (Firebase)
 
@@ -54,23 +58,25 @@ O app utiliza uma IA embarcada que funciona diretamente no dispositivo. Essa IA:
 
 Publicidade
 
-O aplicativo exibe apenas anúncios genéricos. Não há coleta ou uso de dados para personalização de anúncios. As medidas adotadas incluem:
+O aplicativo exibe apenas anúncios genéricos, sem coleta ou uso de dados pessoais para personalização. As medidas adotadas incluem:
 
 > Firebase Analytics desativado
 
 > Nenhum rastreamento de comportamento
 
-> Conformidade total com a LGPD
+> Tratamento de dados em conformidade com a LGPD
 
 Seus Direitos (LGPD)
 
-De acordo com a Lei Geral de Proteção de Dados (LGPD), você tem o direito de:
+Nos termos da LGPD, você tem o direito de:
 
-> Acessar e excluir seus dados a qualquer momento
+> Saber se seus dados estão sendo coletados.
 
-> Solicitar esclarecimentos sobre o uso de informações
+> Revogar a qualquer momento a permissão de acesso às notificações.
 
-> Utilizar o app de forma totalmente anônima
+> Solicitar esclarecimentos sobre o uso de informações.
+
+⚠️ Observação: Nosso app não coleta nem armazena dados pessoais além do acesso às notificações concedido por você.
 
 Segurança
 
@@ -86,7 +92,7 @@ Medidas aplicadas:
 
 Alterações nesta Política
 
-> Esta política poderá ser modificada a qualquer momento para refletir melhorias ou ajustes técnicos. Toda mudança relevante será informada dentro do aplicativo.
+> Esta política poderá ser modificada a qualquer momento para refletir melhorias ou ajustes técnicos.
 
 📜 Termos de Uso
 
