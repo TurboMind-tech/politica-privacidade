@@ -1,6 +1,6 @@
 Política de Privacidade
 
-Última atualização: 23 de julho de 2025
+Última atualização: 18 de agosto de 2025
 
 Introdução
 
@@ -20,7 +20,7 @@ Privacidade e Dados
 
 > Para acessar o aplicativo, solicitamos nome, e-mail e senha, usados exclusivamente para autenticação.
 
-> Esses dados não são armazenados localmente no dispositivo nem em nossos servidores, ficando protegidos no serviço de autenticação utilizado.
+> Esses dados não são armazenados localmente no dispositivo nem em nossos servidores terceiros, ficando protegidos no serviço de autenticação utilizado.
 
 > Não coletamos outras informações pessoais (como localização, contatos ou comportamento de uso).
 
@@ -48,7 +48,7 @@ Inteligência Artificial Local
 
 O app utiliza uma IA embarcada que funciona diretamente no dispositivo. Essa IA:
 
-> Utiliza os dados de duração das matérias para sugerir revisões
+> Utiliza os dados de duração das matérias para sugerir revisões e novas sugestões
 
 > Não acessa a internet ou servidores
 
@@ -72,7 +72,7 @@ Nos termos da LGPD, você tem o direito de:
 
 > Saber se seus dados estão sendo coletados.
 
-> Revogar a qualquer momento a permissão de acesso às notificações.
+> Revogar a qualquer momento a permissão de acesso às notificações via configuração.
 
 > Solicitar esclarecimentos sobre o uso de informações.
 
@@ -110,7 +110,7 @@ Ao instalar ou usar o app, você concorda com:
 
 > A Política de Privacidade vigente
 
-> O uso da IA embarcada para recomendações de revisão
+> O uso da IA embarcada para recomendações de revisão e sugestões
 
 Uso do Aplicativo
 
@@ -124,9 +124,9 @@ O app tem como objetivo ajudar na organização dos estudos. O usuário se compr
 
 Cadastro e Dados
 
-> É necessário criar conta com nome ou e-mail
+> É necessário criar conta com nome, e-mail e senha
 
-> O único dado salvo remotamente é o ID do estudo
+> O único dado salvo remotamente é o ID do estudo pelo sistema de auth usado
 
 > Todos os demais dados ficam armazenados localmente e sob controle do usuário
 
@@ -136,7 +136,7 @@ A funcionalidade de IA do app serve para:
 
 > Analisar localmente a duração dos estudos
 
-> Sugerir revisões com base nesses dados
+> Sugerir revisões com base nesses dados e sugestões
 
 > Funcionar sem conexão com servidores externos
 
@@ -160,19 +160,17 @@ O aplicativo e todo seu conteúdo (código, design, marca, funcionalidades) pert
 
 > Usar qualquer parte do app sem autorização prévia
 
-Limitações de Responsabilidade
+Aviso de Responsabilidade sobre Dados do Usuário
 
-O app é fornecido “como está”. O desenvolvedor não se responsabiliza por:
+O desenvolvedor do aplicativo não se responsabiliza por quaisquer perdas, alterações ou acessos não autorizados aos dados armazenados localmente no dispositivo do usuário. Isso inclui, mas não se limita a:
 
-> Danos causados por uso inadequado
+> Desinstalação do aplicativo
 
-> Perda de dados após desinstalação
+> Instalação ou execução de aplicativos de terceiros que possam ser maliciosos
 
-> Falhas técnicas alheias ao controle do app
+⚠️ Observação: Recomendamos que os usuários tomem cuidado ao instalar aplicativos de fontes externas à Google Play Store
 
-> Encerramento e Suspensão
-
-> O uso do app pode ser encerrado a qualquer momento em caso de:
+O uso do app pode ser encerrado a qualquer momento em caso de:
 
 > Uso ilegal ou fora dos termos
 
@@ -180,9 +178,9 @@ O app é fornecido “como está”. O desenvolvedor não se responsabiliza por:
 
 Atualizações
 
-> Este documento pode ser alterado sempre que necessário. Toda atualização será informada no próprio app.
+> Este documento pode ser alterado sempre que necessário.
 
 Contato
 
 Em caso de dúvidas, sugestões ou solicitações, entre em contato:
-📧 suporte@seudominio.com
+📧 filipetavaresluiz@gmail.com
