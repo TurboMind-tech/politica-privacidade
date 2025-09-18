@@ -183,4 +183,4 @@ Atualizações
 Contato
 
 Em caso de dúvidas, sugestões ou solicitações, entre em contato:
-📧 filipetavaresluiz@gmail.com
+📧 empresagroup517@gmail.com
