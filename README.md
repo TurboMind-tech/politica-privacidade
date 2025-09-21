@@ -60,7 +60,7 @@ Publicidade
 
 O aplicativo exibe apenas anúncios genéricos, sem coleta ou uso de dados pessoais para personalização. As medidas adotadas incluem:
 
-> Firebase Analytics desativado
+> Firebase Analytics desativado para coleta de dados para personalizar os anuncios, porem esta ativado para medir quem esta usando o App
 
 > Nenhum rastreamento de comportamento
 
@@ -86,7 +86,7 @@ Medidas aplicadas:
 
 > Regras de acesso restritas no Firebase para o ID do estudo
 
-> Firebase App Check ativado (garante que só o app oficial acesse o Firebase)
+> Firebase App Check ativado, porem para Celulares que não tem o Play Services o App vai funcionar, porem algumas funcionalidades não vão funcionar de maneira satisfatoria.
 
 > Nenhum dado pessoal é armazenado ou trafegado
 
