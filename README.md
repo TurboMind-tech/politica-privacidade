@@ -1,186 +1,166 @@
-Política de Privacidade
+📜 Política de Privacidade
 
-Última atualização: 18 de agosto de 2025
+Última atualização: 22 de outubro de 2025
 
 Introdução
 
-> Sua privacidade é prioridade para nós. Esta Política de Privacidade explica como seus dados são coletados, armazenados, utilizados e protegidos durante o uso do aplicativo.
+Sua privacidade é prioridade para nós. Esta Política de Privacidade explica como seus dados são coletados, armazenados, utilizados e protegidos durante o uso do aplicativo.
 
-> Ao utilizar o app, você concorda com esta política.
+Ao utilizar o app, você concorda com esta política.
 
 Coleta de Dados
 
 O aplicativo coleta apenas os dados estritamente necessários para seu funcionamento. São eles:
 
-> ID do estudo (armazenado no Firebase apenas para organização interna).
-
-> Duração, matérias, conteúdo, PLaylist são coletado e armazenados localmente no seu dispositivo.
+• ID do estudo (armazenado no Firebase apenas para organização interna).
+• Duração, matérias, conteúdo e playlists — armazenados localmente no seu dispositivo.
 
 Privacidade e Dados
 
-> Para acessar o aplicativo, solicitamos nome, e-mail e senha, usados exclusivamente para autenticação.
-
-> Esses dados não são armazenados localmente no dispositivo nem em nossos servidores terceiros, ficando protegidos no serviço de autenticação utilizado.
-
-> Não coletamos outras informações pessoais (como localização, contatos ou comportamento de uso).
+• Para acessar o aplicativo, solicitamos nome, e-mail e senha, usados exclusivamente para autenticação.
+• Esses dados não são armazenados localmente no dispositivo nem em servidores próprios, ficando protegidos no serviço de autenticação utilizado (Firebase Auth).
+• Não coletamos outras informações pessoais (como localização, contatos ou comportamento de uso).
 
 Armazenamento Local (SQLite)
 
-Todos os dados de uso, como a duração, matéria, conteúdo, PlayList e as recomendações, são armazenados localmente no dispositivo, via banco de dados SQLite. Esses dados:
+Todos os dados de uso, como duração, matéria, conteúdo, playlists e recomendações, são armazenados localmente no dispositivo, via banco de dados SQLite. Esses dados:
 
-> Não são enviados para a nuvem
-
-> Estão disponíveis apenas no próprio app
-
-> Podem ser apagados ou editados a qualquer momento pelo usuário
+• Não são enviados para a nuvem.
+• Estão disponíveis apenas no próprio app.
+• Podem ser apagados ou editados a qualquer momento pelo usuário.
 
 Armazenamento em Nuvem (Firebase)
 
 O app salva apenas o ID dos estudos no Firebase, exclusivamente para fins de organização técnica. Este ID:
 
-> Não permite identificação pessoal
-
-> Está protegido por regras de segurança do Firebase
-
-> Não é compartilhado com terceiros
+• Não permite identificação pessoal.
+• Está protegido por regras de segurança do Firebase.
+• Não é compartilhado com terceiros.
 
 Inteligência Artificial Local
 
 O app utiliza uma IA embarcada que funciona diretamente no dispositivo. Essa IA:
 
-> Utiliza os dados de duração das matérias para sugerir revisões e novas sugestões
-
-> Não acessa a internet ou servidores
-
-> Não armazena nem processa seus dados na nuvem
-
-> Toda a inteligência acontece localmente, de forma segura e privada.
+• Usa os dados de duração das matérias para sugerir revisões e novas sugestões.
+• Não acessa a internet ou servidores.
+• Não armazena nem processa seus dados na nuvem.
+• Toda a inteligência acontece localmente, de forma segura e privada.
 
 Publicidade
 
-O aplicativo exibe apenas anúncios genéricos, sem coleta ou uso de dados pessoais para personalização. As medidas adotadas incluem:
+O aplicativo exibe anúncios genéricos por padrão, mas oferece a opção ao usuário de aceitar anúncios personalizados, sempre com consentimento explícito.
 
-> Firebase Analytics desativado para coleta de dados para personalizar os anuncios, porem esta ativado para medir quem esta usando o App
+Caso o usuário não aceite, serão mostrados apenas anúncios genéricos, sem rastreamento nem uso de dados pessoais.
 
-> Nenhum rastreamento de comportamento
+Caso o usuário aceite anúncios personalizados, o app poderá permitir que redes de anúncios utilizem identificadores anônimos para exibir anúncios mais relevantes, de acordo com suas preferências.
 
-> Tratamento de dados em conformidade com a LGPD
+Medidas adotadas:
+
+• O Firebase Analytics permanece desativado para personalização, sendo utilizado apenas para medir o uso do app.
+• Nenhum rastreamento de comportamento é realizado sem consentimento.
+• Todos os dados são tratados conforme a Lei Geral de Proteção de Dados (LGPD).
+
+O consentimento pode ser alterado a qualquer momento nas configurações do app.
 
 Seus Direitos (LGPD)
 
-Nos termos da LGPD, você tem o direito de:
+De acordo com a LGPD, você tem o direito de:
 
-> Saber se seus dados estão sendo coletados.
+• Saber se seus dados estão sendo coletados.
+• Revogar, a qualquer momento, a permissão concedida para anúncios personalizados.
+• Solicitar esclarecimentos sobre o uso de informações.
 
-> Revogar a qualquer momento a permissão de acesso às notificações via configuração.
-
-> Solicitar esclarecimentos sobre o uso de informações.
-
-⚠️ Observação: Nosso app não coleta nem armazena dados pessoais além do acesso às notificações concedido por você.
+⚠️ Observação: Nosso app não coleta nem armazena dados pessoais além dos necessários para login e funcionamento.
 
 Segurança
 
 Medidas aplicadas:
 
-> Armazenamento local isolado e protegido
+• Armazenamento local isolado e protegido.
+• Regras de acesso restritas no Firebase para o ID do estudo.
+• Firebase App Check ativado (para segurança adicional).
+• Nenhum dado pessoal é armazenado ou trafegado sem autorização.
 
-> Regras de acesso restritas no Firebase para o ID do estudo
-
-> Firebase App Check ativado, porem para Celulares que não tem o Play Services o App vai funcionar, porem algumas funcionalidades não vão funcionar de maneira satisfatoria.
-
-> Nenhum dado pessoal é armazenado ou trafegado
+Usuários sem Google Play Services poderão utilizar o app normalmente, porém algumas funcionalidades podem ser limitadas.
 
 Alterações nesta Política
 
-> Esta política poderá ser modificada a qualquer momento para refletir melhorias ou ajustes técnicos.
+Esta política poderá ser modificada a qualquer momento para refletir melhorias ou ajustes técnicos.
 
-📜 Termos de Uso
+📘 Termos de Uso
 
-Última atualização: 23 de julho de 2025
+Última atualização: 22 de outubro de 2025
 
 Bem-vindo(a)!
 
-> Estes Termos de Uso definem as regras para o uso do aplicativo. Ao utilizar o app, você declara estar ciente e de acordo com este documento e com a Política de Privacidade.
+Estes Termos de Uso definem as regras para o uso do aplicativo. Ao utilizar o app, você declara estar ciente e de acordo com este documento e com a Política de Privacidade.
 
 Aceitação dos Termos
 
 Ao instalar ou usar o app, você concorda com:
 
-> Estes Termos de Uso
-
-> A Política de Privacidade vigente
-
-> O uso da IA embarcada para recomendações de revisão e sugestões
+• Estes Termos de Uso.
+• A Política de Privacidade vigente.
+• O uso da IA embarcada para recomendações de revisão e sugestões.
 
 Uso do Aplicativo
 
 O app tem como objetivo ajudar na organização dos estudos. O usuário se compromete a:
 
-> Utilizar o app para fins pessoais e legais
-
-> Não tentar acessar ou modificar o funcionamento interno do app
-
-> Não explorar falhas de segurança ou dados de terceiros
+• Utilizar o app para fins pessoais e legais.
+• Não tentar acessar ou modificar o funcionamento interno do app.
+• Não explorar falhas de segurança ou dados de terceiros.
 
 Cadastro e Dados
 
-> É necessário criar conta com nome, e-mail e senha
-
-> O único dado salvo remotamente é o ID do estudo pelo sistema de auth usado
-
-> Todos os demais dados ficam armazenados localmente e sob controle do usuário
+• É necessário criar conta com nome, e-mail e senha.
+• O único dado salvo remotamente é o ID do estudo.
+• Todos os demais dados ficam armazenados localmente e sob controle do usuário.
 
 IA Local
 
 A funcionalidade de IA do app serve para:
 
-> Analisar localmente a duração dos estudos
-
-> Sugerir revisões com base nesses dados e sugestões
-
-> Funcionar sem conexão com servidores externos
+• Analisar localmente a duração dos estudos.
+• Sugerir revisões com base nesses dados.
+• Funcionar sem conexão com servidores externos.
 
 Publicidade
 
-> O app não exibe anúncios personalizados
-
-> Apenas anúncios genéricos são mostrados
-
-> Nenhum dado de uso é rastreado ou compartilhado
+• O app exibe anúncios genéricos por padrão.
+• O usuário pode optar por permitir anúncios personalizados.
+• Nenhum dado de uso é rastreado sem consentimento.
 
 Propriedade Intelectual
 
 O aplicativo e todo seu conteúdo (código, design, marca, funcionalidades) pertencem exclusivamente ao desenvolvedor. É proibido:
 
-> Copiar
-
-> Distribuir
-
-> Modificar
-
-> Usar qualquer parte do app sem autorização prévia
+• Copiar
+• Distribuir
+• Modificar
+• Usar qualquer parte do app sem autorização prévia
 
 Aviso de Responsabilidade sobre Dados do Usuário
 
-O desenvolvedor do aplicativo não se responsabiliza por quaisquer perdas, alterações ou acessos não autorizados aos dados armazenados localmente no dispositivo do usuário. Isso inclui, mas não se limita a:
+O desenvolvedor não se responsabiliza por perdas, alterações ou acessos não autorizados aos dados armazenados localmente. Isso inclui:
 
-> Desinstalação do aplicativo
+• Desinstalação do aplicativo.
+• Instalação ou execução de aplicativos de terceiros potencialmente maliciosos.
 
-> Instalação ou execução de aplicativos de terceiros que possam ser maliciosos
+⚠️ Recomendamos instalar o app apenas via Google Play Store.
 
-⚠️ Observação: Recomendamos que os usuários tomem cuidado ao instalar aplicativos de fontes externas à Google Play Store
+Encerramento de Uso
 
 O uso do app pode ser encerrado a qualquer momento em caso de:
 
-> Uso ilegal ou fora dos termos
-
-> Tentativas de manipulação indevida
+• Uso ilegal ou fora dos termos.
+• Tentativas de manipulação indevida.
 
 Atualizações
 
-> Este documento pode ser alterado sempre que necessário.
+Este documento pode ser alterado sempre que necessário.
 
 Contato
 
-Em caso de dúvidas, sugestões ou solicitações, entre em contato:
+Em caso de dúvidas, sugestões ou solicitações:
 📧 empresagroup517@gmail.com
