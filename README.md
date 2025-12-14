@@ -1,157 +1,111 @@
 Privacy Policy - EUA
 📜 Privacy Policy – US Compliant (COPPA + CCPA/CPRA)
 
-Last Updated: October 22, 2025 (Revised on October 25, 2025)
+Last updated: October 22, 2025 (Revised on October 25, 2025)
 
 Introduction
 
-Your privacy is important to us. This Privacy Policy explains how your information is collected, used, stored, and protected when you use the application.
+Your privacy is a priority for us. This Privacy Policy explains how your data is collected, stored, used, and protected while using the application.
 
-By using the app, you agree to this Privacy Policy.
+By using the app, you agree to this policy.
 
-This policy complies with the requirements of the CCPA/CPRA (California Consumer Privacy Act), COPPA (Children’s Online Privacy Protection Act), and other applicable U.S. privacy regulations.
+Data Collection
 
-1. Information We Collect
+The application collects only the data strictly necessary for its operation, including:
 
-The application collects only the minimum data necessary for its operation:
+Study ID (stored in Firebase solely for internal organization purposes).
 
-1.1 Account Information
+Duration, subjects, content, and playlists — stored locally on your device.
 
-Name
+Privacy and User Data
 
-Email
+To access the application, we request name, email, and password, used exclusively for authentication purposes.
 
-Password
-These are used exclusively for authentication via Firebase Authentication.
+Login credentials are not stored locally on the device nor on proprietary servers. They are securely managed by the authentication service used (Firebase Authentication).
 
-No other personal data is required to use the app.
+We do not collect other personal information such as location data, contacts, or usage behavior.
 
-1.2 Local Data Stored on Device (SQLite)
+Local Storage (SQLite)
 
-Stored only on your device:
+All data such as subject duration, content, playlists, and recommendations are stored locally on the device using an SQLite database. These data:
 
-Study duration
+Are not sent to the cloud.
 
-Subjects
+Are available only within the app.
 
-Content
+Can be edited or deleted at any time by the user.
 
-Playlists
+Cloud Storage (Firebase)
 
-Study recommendations
+The app stores only the Study Plan ID in Firebase, exclusively for technical organization purposes. This ID:
 
-This data:
+Does not allow personal identification.
 
-Is not sent to the cloud
+Is protected by Firebase security rules.
 
-Is not shared
+Is not shared with third parties.
 
-Can be deleted or edited by you at any time
+On-Device Artificial Intelligence
 
-1.3 Cloud Data Stored in Firebase
+The app uses embedded, on-device AI that runs entirely on the device. This AI:
 
-We store only the Study Plan ID, used solely for organizational and technical purposes.
+Uses subject duration data to suggest reviews and new recommendations.
 
-This ID:
+Does not access the internet or external servers.
 
-Does not identify any user
+Does not store or process data in the cloud.
 
-Is protected by Firebase Security Rules
+All intelligence operates locally, securely, and privately.
 
-Is not shared with third parties
+Advertising
 
-The app does not collect:
+The application displays only generic (non-personalized) ads, provided by Google AdMob.
 
-Location data
+There is no tracking, profiling, or use of personal data for advertising purposes.
+No usage data is collected or analyzed to personalize ads.
 
-Device identifiers
+Even though AdMob is used, the app is configured to force the display of non-personalized (generic) ads.
 
-Usage behavior
+Regulatory Compliance
+European Regulations (GDPR and similar laws)
 
-Contacts
+The application requests user consent, as required by the GDPR and other European regulations, to serve ads to users located in the European Economic Area (EEA), United Kingdom, and Switzerland.
+Regardless of consent, all ads displayed remain non-personalized.
 
-Browsing data
+U.S. State Regulations (e.g., CCPA/CPRA)
 
-Biometric or sensitive information
+The application manages privacy settings and displays informational privacy messages to users located in U.S. states, ensuring transparency and compliance with applicable laws.
+No data tracking is performed for advertising purposes.
 
-2. On-Device Artificial Intelligence
+In summary, the application uses Google AdMob exclusively for generic ads, fully respecting applicable privacy regulations and user data protection.
 
-The app uses a built-in AI that runs completely offline, directly on your device.
+Your Rights (LGPD – Brazil)
 
-The AI:
+In accordance with the Brazilian General Data Protection Law (LGPD), you have the right to:
 
-Processes study duration data to generate suggestions
+Know whether your data is being collected.
 
-Does not send data to servers
+Request clarification about how information is used.
 
-Does not store your data in the cloud
+⚠️ Note: Our app does not collect or store personal data beyond what is strictly necessary for login and core functionality.
 
-Does not track or identify you
+Security
 
-No AI-related data leaves your device.
+Security measures applied include:
 
-3. Advertising
+Isolated and protected local storage.
 
-The app displays only non-personalized ads.
+Restricted access rules in Firebase for the Study ID.
 
-We do not:
+Firebase App Check enabled for additional protection.
 
-Collect personal data for advertising
+No personal data is stored or transmitted without authorization.
 
-Track user behavior
+Users without Google Play Services may still use the app; however, some features may be limited.
 
-Build advertising profiles
+Changes to This Policy
 
-Firebase Analytics remains disabled for ad personalization and is used only for anonymous, aggregate app usage metrics.
-
-4. Children’s Privacy (COPPA Compliance)
-
-This application is not intended for children under 13 years of age in the United States.
-
-We do not knowingly collect personal information from children under 13.
-If you believe a child under 13 has created an account, please contact us immediately at empresagroup517@gmail.com
- so the data can be removed.
-
-5. Your Rights (CCPA/CPRA and LGPD)
-
-Depending on your region (California, Brazil, or others), you may have the right to:
-
-Know what data we collect
-
-Request deletion of your data
-
-Request access to stored data
-
-Request correction of inaccurate data
-
-Opt-out of data selling (we do not sell data)
-
-To exercise your rights, contact:
-📧 empresagroup517@gmail.com
-
-We will respond within the legally required time.
-
-6. Security Measures
-
-We apply the following protections:
-
-Isolated and encrypted local storage
-
-Restricted Firebase access rules
-
-Firebase App Check enabled
-
-No transmission of sensitive personal data
-
-Users without Google Play Services can still use the app, but some features may be limited.
-
-7. International Transfers
-
-The app uses Firebase Authentication and Realtime services, which may process data in the United States or other regions. All processing complies with applicable privacy regulations.
-
-8. Changes to This Policy
-
-This Privacy Policy may be updated at any time to reflect improvements or regulatory changes. Continued use of the app indicates acceptance of the updated version.
+This Privacy Policy may be updated at any time to reflect improvements, legal requirements, or technical adjustments.
 
 📘 Terms of Use – US Compliant
 
@@ -271,9 +225,9 @@ ID do estudo (armazenado no Firebase apenas para organização interna).
 Duração, matérias, conteúdo e playlists — armazenados localmente no seu dispositivo.
 
 Privacidade e Dados
-Para acessar o aplicativo, solicitamos nome, e-mail e senha, usados exclusivamente para autenticação.
+Para entrar no aplicativo solicitamos nome, e-mail e senha, usados exclusivamente para autenticação.
 
-Esses dados não são armazenados localmente no dispositivo nem em servidores próprios, ficando protegidos no serviço de autenticação utilizado (Firebase Auth).
+Os dados de login não são armazenados localmente no dispositivo nem em servidores próprios, ficando protegidos no serviço de autenticação utilizado (Firebase Auth).
 
 Não coletamos outras informações pessoais (como localização, contatos ou comportamento de uso).
 
@@ -307,19 +261,25 @@ Não armazena nem processa seus dados na nuvem.
 Toda a inteligência acontece localmente, de forma segura e privada.
 
 Publicidade
-O aplicativo exibe apenas anúncios genéricos.
 
-Não há rastreamento nem uso de dados pessoais do usuário para fins de publicidade.
+O aplicativo exibe apenas anúncios genéricos, fornecidos pela plataforma Google AdMob.
 
-Nenhum dado de uso é rastreado para personalizar anúncios.
+Não há rastreamento, perfilamento ou uso de dados pessoais do usuário para fins de publicidade.
+Nenhum dado de uso é coletado ou analisado para personalizar anúncios.
 
-Medidas adotadas:
+Mesmo utilizando o AdMob, o aplicativo está configurado para forçar a exibição de anúncios não personalizados (genéricos).
 
-O Firebase Analytics permanece desativado para personalização, sendo utilizado apenas para medir o uso do app.
+Conformidade com regulamentações
 
-Nenhum rastreamento de comportamento é realizado.
+Regulamentações europeias (GDPR e similares)
+O aplicativo solicita o consentimento do usuário, conforme exigido pelo GDPR e por outras regulamentações europeias, para a veiculação de anúncios a usuários localizados no Espaço Econômico Europeu (EEE), Reino Unido e Suíça.
+Independentemente do consentimento, os anúncios exibidos permanecem não personalizados.
 
-Todos os dados são tratados conforme a Lei Geral de Proteção de Dados (LGPD).
+Regulamentos estaduais dos Estados Unidos (ex.: CCPA/CPRA)
+O aplicativo gerencia as configurações de privacidade e exibe mensagens informativas para usuários localizados em estados dos EUA, garantindo transparência e conformidade com a legislação aplicável.
+Não é realizado rastreamento de dados para fins publicitários.
+
+Em resumo, o aplicativo utiliza o Google AdMob exclusivamente para anúncios genéricos, respeitando as legislações de privacidade vigentes e a proteção dos dados do usuário.
 
 Seus Direitos (LGPD)
 De acordo com a LGPD, você tem o direito de:
