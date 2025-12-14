@@ -1,16 +1,12 @@
-Privacy Policy - EUA
-📜 Privacy Policy – US Compliant (COPPA + CCPA/CPRA)
-
+📜 Privacy Policy – US Compliant
 Last updated: October 22, 2025 (Revised on October 25, 2025)
 
 Introduction
-
-Your privacy is a priority for us. This Privacy Policy explains how your data is collected, stored, used, and protected while using the application.
+Your privacy is a priority for us. This Privacy Policy explains how your data is collected, stored, used, and protected while using the TurboMind application.
 
 By using the app, you agree to this policy.
 
 Data Collection
-
 The application collects only the data strictly necessary for its operation, including:
 
 Study ID (stored in Firebase solely for internal organization purposes).
@@ -18,7 +14,6 @@ Study ID (stored in Firebase solely for internal organization purposes).
 Duration, subjects, content, and playlists — stored locally on your device.
 
 Privacy and User Data
-
 To access the application, we request name, email, and password, used exclusively for authentication purposes.
 
 Login credentials are not stored locally on the device nor on proprietary servers. They are securely managed by the authentication service used (Firebase Authentication).
@@ -26,7 +21,6 @@ Login credentials are not stored locally on the device nor on proprietary server
 We do not collect other personal information such as location data, contacts, or usage behavior.
 
 Local Storage (SQLite)
-
 All data such as subject duration, content, playlists, and recommendations are stored locally on the device using an SQLite database. These data:
 
 Are not sent to the cloud.
@@ -36,7 +30,6 @@ Are available only within the app.
 Can be edited or deleted at any time by the user.
 
 Cloud Storage (Firebase)
-
 The app stores only the Study Plan ID in Firebase, exclusively for technical organization purposes. This ID:
 
 Does not allow personal identification.
@@ -46,7 +39,6 @@ Is protected by Firebase security rules.
 Is not shared with third parties.
 
 On-Device Artificial Intelligence
-
 The app uses embedded, on-device AI that runs entirely on the device. This AI:
 
 Uses subject duration data to suggest reviews and new recommendations.
@@ -58,39 +50,48 @@ Does not store or process data in the cloud.
 All intelligence operates locally, securely, and privately.
 
 Advertising
-
 The application displays only generic (non-personalized) ads, provided by Google AdMob.
 
-There is no tracking, profiling, or use of personal data for advertising purposes.
+There is no tracking, profiling, or use of Personal Information for advertising purposes.
+
 No usage data is collected or analyzed to personalize ads.
 
 Even though AdMob is used, the app is configured to force the display of non-personalized (generic) ads.
 
-Regulatory Compliance
-European Regulations (GDPR and similar laws)
+🛡️ App Permissions and Indirect Usage (Biometrics)
+This section explains permissions that the Android system may indicate the application uses:
 
-The application requests user consent, as required by the GDPR and other European regulations, to serve ads to users located in the European Economic Area (EEA), United Kingdom, and Switzerland.
-Regardless of consent, all ads displayed remain non-personalized.
+Permission android.permission.USE_BIOMETRIC (Fingerprint/Biometrics)
+The TurboMind application does not utilize fingerprint, facial recognition, or any other biometric data for user login, identification, or data collection purposes.
+
+However, to provide a secure environment and meet the requirements of modern security APIs, our application uses third-party Google services, specifically the Google Credentials API (Play Services Auth). This library is a dependency of our authentication features (Firebase Auth and Google Sign-In).
+
+To protect access to saved credentials (like passwords and passkeys), the Android Operating System requires this permission to be declared, allowing the system to prompt the user for biometric confirmation before releasing saved credentials for auto-fill.
+
+Please note that this process is entirely managed by Google's security infrastructure and the Android system. TurboMind does not access, store, or process your biometric data.
+
+Regulatory Compliance
+Children's Online Privacy Protection Act (COPPA)
+The service offered by this application is not directed to individuals under the age of 13. We do not knowingly collect Personal Information from children under 13. If we become aware that a child under 13 has provided us with Personal Information, we will take steps to delete such information from our files. If you believe that we may have inadvertently collected such data, please contact us immediately.
 
 U.S. State Regulations (e.g., CCPA/CPRA)
+The application manages privacy settings and displays informational privacy messages to users located in U.S. states, ensuring transparency and compliance with applicable laws. As the app does not collect personal data for advertising or sales purposes, the requirements related to "Do Not Sell or Share My Personal Information" do not apply.
 
-The application manages privacy settings and displays informational privacy messages to users located in U.S. states, ensuring transparency and compliance with applicable laws.
-No data tracking is performed for advertising purposes.
+European Regulations (GDPR and similar laws)
+The application requests user consent, as required by the GDPR and other European regulations, to serve ads to users located in the European Economic Area (EEA), United Kingdom, and Switzerland. Regardless of consent, all ads displayed remain non-personalized.
 
-In summary, the application uses Google AdMob exclusively for generic ads, fully respecting applicable privacy regulations and user data protection.
+Your Rights (U.S. Privacy Laws)
+In accordance with applicable U.S. state privacy laws (such as CCPA/CPRA), you have the right to:
 
-Your Rights (LGPD – Brazil)
+Know whether we collect your Personal Information.
 
-In accordance with the Brazilian General Data Protection Law (LGPD), you have the right to:
+Request clarification about the categories and sources of information collected.
 
-Know whether your data is being collected.
+Request deletion of any personal information we may hold about you.
 
-Request clarification about how information is used.
-
-⚠️ Note: Our app does not collect or store personal data beyond what is strictly necessary for login and core functionality.
+⚠️ Note: Our app does not collect or store Personal Information beyond what is strictly necessary for login and core functionality, and it is not tracked for third-party use.
 
 Security
-
 Security measures applied include:
 
 Isolated and protected local storage.
@@ -99,13 +100,12 @@ Restricted access rules in Firebase for the Study ID.
 
 Firebase App Check enabled for additional protection.
 
-No personal data is stored or transmitted without authorization.
+No Personal Information is stored or transmitted without authorization.
 
 Users without Google Play Services may still use the app; however, some features may be limited.
 
 Changes to This Policy
-
-This Privacy Policy may be updated at any time to reflect improvements, legal requirements, or technical adjustments.
+This Privacy Policy may be updated at any time to reflect improvements, legal requirements, or technical adjustments. We encourage you to review it periodically.
 
 📘 Terms of Use – US Compliant
 
@@ -208,12 +208,11 @@ For questions, suggestions, or privacy requests:
 
 📧 empresagroup517@gmail.com
 
-Versão em PT-Brasil
-📜 Política de Privacidade
+📜 Política de Privacidade - TurboMind
 Última atualização: 22 de outubro de 2025 (Revisada em 25 de outubro de 2025)
 
 Introdução
-Sua privacidade é prioridade para nós. Esta Política de Privacidade explica como seus dados são coletados, armazenados, utilizados e protegidos durante o uso do aplicativo.
+Sua privacidade é prioridade para nós. Esta Política de Privacidade explica como seus dados são coletados, armazenados, utilizados e protegidos durante o uso do aplicativo TurboMind.
 
 Ao utilizar o app, você concorda com esta política.
 
@@ -261,25 +260,32 @@ Não armazena nem processa seus dados na nuvem.
 Toda a inteligência acontece localmente, de forma segura e privada.
 
 Publicidade
-
 O aplicativo exibe apenas anúncios genéricos, fornecidos pela plataforma Google AdMob.
 
 Não há rastreamento, perfilamento ou uso de dados pessoais do usuário para fins de publicidade.
+
 Nenhum dado de uso é coletado ou analisado para personalizar anúncios.
 
 Mesmo utilizando o AdMob, o aplicativo está configurado para forçar a exibição de anúncios não personalizados (genéricos).
 
 Conformidade com regulamentações
+Regulamentações europeias (GDPR e similares): O aplicativo solicita o consentimento do usuário, conforme exigido, para a veiculação de anúncios a usuários localizados no Espaço Econômico Europeu (EEE), Reino Unido e Suíça. Independentemente do consentimento, os anúncios exibidos permanecem não personalizados.
 
-Regulamentações europeias (GDPR e similares)
-O aplicativo solicita o consentimento do usuário, conforme exigido pelo GDPR e por outras regulamentações europeias, para a veiculação de anúncios a usuários localizados no Espaço Econômico Europeu (EEE), Reino Unido e Suíça.
-Independentemente do consentimento, os anúncios exibidos permanecem não personalizados.
-
-Regulamentos estaduais dos Estados Unidos (ex.: CCPA/CPRA)
-O aplicativo gerencia as configurações de privacidade e exibe mensagens informativas para usuários localizados em estados dos EUA, garantindo transparência e conformidade com a legislação aplicável.
-Não é realizado rastreamento de dados para fins publicitários.
+Regulamentos estaduais dos Estados Unidos (ex.: CCPA/CPRA): O aplicativo gerencia as configurações de privacidade e exibe mensagens informativas para usuários localizados em estados dos EUA, garantindo transparência e conformidade com a legislação aplicável. Não é realizado rastreamento de dados para fins publicitários.
 
 Em resumo, o aplicativo utiliza o Google AdMob exclusivamente para anúncios genéricos, respeitando as legislações de privacidade vigentes e a proteção dos dados do usuário.
+
+🛡️ Permissões do Aplicativo e Uso Indireto
+Esta seção explica as permissões que o sistema Android pode indicar que o aplicativo utiliza:
+
+Permissão android.permission.USE_BIOMETRIC (Impressão Digital/Biometria)
+O aplicativo TurboMind não utiliza a impressão digital, reconhecimento facial ou qualquer outro dado biométrico para fins de login, identificação do usuário ou coleta de dados.
+
+No entanto, para fornecer um ambiente seguro e cumprir os requisitos das modernas APIs de segurança, nosso aplicativo utiliza serviços de terceiros do Google, como a Google Credentials API (Play Services Auth). Esta biblioteca é uma dependência das nossas funcionalidades de autenticação (Firebase Auth e Google Sign-In).
+
+Para proteger o acesso a credenciais salvas (como senhas e chaves de acesso), o sistema operacional Android exige que esta permissão seja declarada, permitindo que o sistema solicite a confirmação biométrica do usuário antes de liberar credenciais salvas para o preenchimento automático.
+
+Ressaltamos que esse processo é totalmente gerenciado pela infraestrutura de segurança do Google e pelo sistema Android, e o TurboMind não tem acesso, não armazena e nem processa seus dados biométricos.
 
 Seus Direitos (LGPD)
 De acordo com a LGPD, você tem o direito de:
@@ -304,7 +310,7 @@ Nenhum dado pessoal é armazenado ou trafegado sem autorização.
 Usuários sem Google Play Services poderão utilizar o app normalmente, porém algumas funcionalidades podem ser limitadas.
 
 Alterações nesta Política
-Esta política poderá ser modificada a qualquer momento para refletir melhorias ou ajustes técnicos.
+Esta política poderá ser modificada a qualquer momento para refletir melhorias ou ajustes técnicos. Recomendamos que você a revise periodicamente.
 
 📘 Termos de Uso
 Última atualização: 22 de outubro de 2025 (Revisada em 25 de outubro de 2025)
